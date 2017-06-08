@@ -2,11 +2,11 @@
 layout: default
 ---
 
-## [](#quick-install)Quick install
 <p style="text-align: center;">
   <iframe height="315" src="https://www.youtube.com/embed/MOQ0gd7uEWU" frameborder="0" allowfullscreen="" width="560"></iframe>
 </p>
 
+## [](#quick-install)Quick install
 ```bash
 php -r "readfile('https://raw.githubusercontent.com/contentacms/contenta_jsonapi/8.x-1.x/installer.sh');" > contentacms.sh
 chmod a+x contentacms.sh
