@@ -2,126 +2,56 @@
 layout: default
 ---
 
+## [](#quick-install)Quick install
 <div style="text-align: center;">
   <iframe height="315" src="https://www.youtube.com/embed/MOQ0gd7uEWU" frameborder="0" allowfullscreen="" width="560"></iframe>
 </div>
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](another-page).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+```bash
+php -r "readfile('https://raw.githubusercontent.com/contentacms/contenta_jsonapi/8.x-1.x/installer.sh');" > contentacms.sh
+chmod a+x contentacms.sh
+./contentacms.sh
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+For this to work you will need to have composer installed in your local machine. See [get composer](https://getcomposer.org/) for more details. Also, make sure that the sqlite-extension is installed (`sudo apt-get install php-sqlite3` in debian/ubuntu).
+
+The quick installation is intended for **local development** only.
+
+## [](#goals)Goals
+One of the conclussions of DrupalCon Baltimore was that Drupal 8 has **impressive tools to build a decoupled application**. However, assembling all the tools together and setting them up correctly can be a little bit daunting. On top of that, once you have everything set up you need to figure out the ins and outs of your front-end project.
+
+With this in mind, Contenta CMS is born to _make your content happy_. Contenta CMS is the response of **the community** to build an API-First Drupal distribution. The goals of Contenta are simple: provide a standard platform that is API ready along with demo content and example front-end applications. In summary Contenta intends to ease the pain of using, or simply trying, decoupled Drupal.
+
+## [](#installation)Installation
+
+* [Get composer](https://getcomposer.org/)
+* Create a new project using a command like this. This will pull down the installation profile + core + modules, so maybe get a cup of tea:
 ```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
+composer create-project contentacms/contenta-jsonapi-project MYPROJECT --stability dev --no-interaction
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+* After that install Drupal normally.
 
-```
-The final element.
-```
+## [](#demos)Demos
+An integral part of Contenta is to provide, out of the box, with a content model and demo content ready for you to start working with it. The demo chosen by the community is a recipe magazin.
+
+With this in mind, every demo consumer will implement this recipe magazine site with the goal in mind to compare the different implementations.
+
+### [](#example-front-ends)Example Consumers
+
+Choosing your own front-end technology is one of common reasons to choose a decoupled approach. In a decoupled architecture you can also have multiple front-ends at the same time. Contenta gives you examples on how to build a consumer application in different technologies.
+
+| Fron-end | Status      | Link  |
+|:---------|:------------|:------|
+| Elm      | In progress | [Repo](https://github.com/contentacms/contenta_jsonapi__elm)  |
+| React    | In progress | [Repo](https://github.com/contentacms/contenta_react)                       |
+| Ionic    | Planned     |                                                                             |
+| Angular  | In progress | [Repo](https://github.com/contentacms/contenta_angular)       |
+
+If you want to contribute to any of the demo apps above or add a new one, join [the Slack channel](https://drupal.slack.com/messages/C5A70F7D1) and become part of the project!
+
+## [](#development)Development
+
+Join the discussion in the [#contenta Slack channel](https://drupal.slack.com/messages/C5A70F7D1).
+
+For documention on the development on contenta_jsonapi itself, see [docs/development](https://github.com/contentacms/contenta_jsonapi/blob/master/docs/development.md).
+
