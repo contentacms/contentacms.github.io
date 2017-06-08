@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MOQ0gd7uEWU" frameborder="0" allowfullscreen></iframe>
+<div style="text-align: center;">
+  <iframe height="315" src="https://www.youtube.com/embed/MOQ0gd7uEWU" frameborder="0" allowfullscreen="" width="560"></iframe>
+</div>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
