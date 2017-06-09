@@ -54,5 +54,5 @@ If you want to contribute to any of the demo apps above or add a new one, join [
 
 Join the discussion in the [#contenta Slack channel](https://drupal.slack.com/messages/C5A70F7D1).
 
-For documentation on the development on contenta_jsonapi itself, see [docs/development](https://github.com/contentacms/contenta_jsonapi/blob/master/docs/development.md).
+For documentation on the development on contenta_jsonapi itself, see [docs/development](https://github.com/contentacms/contenta_jsonapi/blob/8.x-1.x/docs/development.md).
 
