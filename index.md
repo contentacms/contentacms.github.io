@@ -32,7 +32,7 @@ composer create-project contentacms/contenta-jsonapi-project MYPROJECT --stabili
 * After that install Drupal normally.
 
 ## [](#demos)Demos
-An integral part of Contenta is to provide, out of the box, with a content model and demo content ready for you to start working with it. The demo chosen by the community is a recipe magazin.
+An integral part of Contenta is to provide, out of the box, with a content model and demo content ready for you to start working with it. The demo chosen by the community is a [recipe magazin](https://www.drupal.org/node/2818741).
 
 With this in mind, every demo consumer will implement this recipe magazine site with the goal in mind to compare the different implementations.
 
@@ -44,7 +44,8 @@ Choosing your own front-end technology is one of common reasons to choose a deco
 |:---------|:------------|:------|
 | Elm      | In progress | [Repo](https://github.com/contentacms/contenta_jsonapi__elm)  |
 | React    | In progress | [Repo](https://github.com/contentacms/contenta_react)                       |
-| Ionic    | Planned     |                                                                             |
+| Ember .  | In progress | [Repo](https://github.com/contentacms/contenta_ember)                      |
+| Ionic    | Planned     |                                                                               |
 | Angular  | In progress | [Repo](https://github.com/contentacms/contenta_angular)       |
 
 If you want to contribute to any of the demo apps above or add a new one, join [the Slack channel](https://drupal.slack.com/messages/C5A70F7D1) and become part of the project!
@@ -53,5 +54,5 @@ If you want to contribute to any of the demo apps above or add a new one, join [
 
 Join the discussion in the [#contenta Slack channel](https://drupal.slack.com/messages/C5A70F7D1).
 
-For documention on the development on contenta_jsonapi itself, see [docs/development](https://github.com/contentacms/contenta_jsonapi/blob/master/docs/development.md).
+For documentation on the development on contenta_jsonapi itself, see [docs/development](https://github.com/contentacms/contenta_jsonapi/blob/master/docs/development.md).
 
