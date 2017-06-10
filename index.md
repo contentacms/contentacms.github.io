@@ -40,6 +40,8 @@ With this in mind, every demo consumer will implement this recipe magazine site 
 
 Choosing your own front-end technology is one of common reasons to choose a decoupled approach. In a decoupled architecture you can also have multiple front-ends at the same time. Contenta gives you examples on how to build a consumer application in different technologies.
 
+We will implement the [same wireframes](https://www.drupal.org/node/2818741#comment-12122841) than the Out of the Box Initiative, so all the demo applications can be compared. Even though all applications will have the same structure each one will choose their look and feel. Angular may use [material design](https://material.io/guidelines/material-design/introduction.html), elm may use [bootstrap](http://getbootstrap.com/), etc.
+
 | Fron-end | Status      | Link  |
 |:---------|:------------|:------|
 | Elm      | In progress | [Repo](https://github.com/contentacms/contenta_jsonapi__elm)  |
