@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <p style="text-align: center;">
   <iframe height="315" src="https://www.youtube.com/embed/MOQ0gd7uEWU" frameborder="0" allowfullscreen="" width="560"></iframe>
 </p>
