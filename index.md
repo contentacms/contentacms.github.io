@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+## Message from the Contenta CMS community group
+We are still working on a blogpost defining better the goals of Contenta CMS. We hope that will correct some of the mischaracterizations. We will also talk about the viability of merging efforts and cross-pollination with Acquia's Reservoir distribution.
+
+Follow us in Twitter ([@contentacms](https://twitter.com/contentacms)) to stay tunned.
+
 <p style="text-align: center;">
   <iframe height="315" src="https://www.youtube.com/embed/MOQ0gd7uEWU" frameborder="0" allowfullscreen="" width="560"></iframe>
 </p>
