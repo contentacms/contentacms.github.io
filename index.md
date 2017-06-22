@@ -6,7 +6,7 @@ We are still working on a blogpost defining better the goals of Contenta CMS. We
 
 Follow us in Twitter ([@contentacms](https://twitter.com/contentacms)) to stay tunned.
 
-![The mission of Contenta CMS](https://www.dropbox.com/s/opviet0bo39qtd6/contenta-mission.png?dl=1)
+![The mission of Contenta CMS](/assets/images/contenta-mission.png)
 
 <p style="text-align: center;">
   <iframe height="315" src="https://www.youtube.com/embed/MOQ0gd7uEWU" frameborder="0" allowfullscreen="" width="560"></iframe>
