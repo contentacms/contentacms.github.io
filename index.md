@@ -53,7 +53,7 @@ We will implement the [same wireframes](https://www.drupal.org/node/2818741#comm
 | Elm       | In progress | [Repo](https://github.com/contentacms/contenta_jsonapi__elm)  |
 | React     | In progress | [Repo](https://github.com/contentacms/contenta_react)                       |
 | Ember .   | In progress | [Repo](https://github.com/contentacms/contenta_ember)                      |
-| Ionic     | Planned     |                                                                               |
+| Ionic     | In progress | [Repo](https://github.com/contentacms/contenta_ionic) |
 | Angular   | In progress | [Repo](https://github.com/contentacms/contenta_angular)       |
 
 If you want to contribute to any of the demo apps above or add a new one, join [the Slack channel](https://drupal.slack.com/messages/C5A70F7D1) and become part of the project!
