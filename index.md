@@ -55,6 +55,7 @@ We will implement the [same wireframes](https://www.drupal.org/node/2818741#comm
 | Ember .   | In progress | [Repo](https://github.com/contentacms/contenta_ember)                      |
 | Ionic     | In progress | [Repo](https://github.com/contentacms/contenta_ionic) |
 | Angular   | In progress | [Repo](https://github.com/contentacms/contenta_angular)       |
+| Vue.js    | In progress | [Repo](https://github.com/contentacms/contenta_vue_nuxt)       |
 
 If you want to contribute to any of the demo apps above or add a new one, join [the Slack channel](https://drupal.slack.com/messages/C5A70F7D1) and become part of the project!
 
