@@ -1,18 +1,17 @@
 ---
 layout: default
 ---
-## Message from the Contenta CMS community group
-We are still working on a blog post better defining the goals of Contenta CMS. We hope that will correct some of the mischaracterizations. We will also talk about the viability of merging efforts and cross-pollination with Acquia's Reservoir distribution.
+## [](#mission)Our Mission
 
-Follow us on Twitter ([@contentacms](https://twitter.com/contentacms)) to stay tuned.
+Read more about Contenta's mission in [this blog post](medium.com/@mateu.aguilo.bosch/contenta-makes-your-content-happy-6f76bbe0cdae).
 
 ![The mission of Contenta CMS](/assets/images/contenta-mission.png)
 
+## [](#quick-install)Quick install
 <p style="text-align: center;">
   <iframe height="315" src="https://www.youtube.com/embed/MOQ0gd7uEWU" frameborder="0" allowfullscreen="" width="560"></iframe>
 </p>
 
-## [](#quick-install)Quick install
 ```bash
 php -r "readfile('https://raw.githubusercontent.com/contentacms/contenta_jsonapi/8.x-1.x/installer.sh');" > contentacms.sh
 chmod a+x contentacms.sh
@@ -37,6 +36,10 @@ composer create-project contentacms/contenta-jsonapi-project MYPROJECT --stabili
 ```
 * After that, install Drupal normally.
 
+## [](#bigger-drupal-community)The Bigger Drupal Community
+
+We know you have questions about the different API-First distributions. We had them as well recently. These are [some clarifications](/comparing-reservoir.html) that may help you.
+
 ## [](#demos)Demos
 An integral part of Contenta is to provide an out of the box content model and demo content ready for you to start working with it. The demo chosen by the community is a [recipe magazine](https://www.drupal.org/node/2818741).
 
@@ -52,7 +55,7 @@ We will implement the [same wireframes](https://www.drupal.org/node/2818741#comm
 |:----------|:------------|:------|
 | Elm       | In progress | [Repo](https://github.com/contentacms/contenta_jsonapi__elm)  |
 | React     | In progress | [Repo](https://github.com/contentacms/contenta_react)                       |
-| Ember .   | In progress | [Repo](https://github.com/contentacms/contenta_ember)                      |
+| Ember     | In progress | [Repo](https://github.com/contentacms/contenta_ember)                      |
 | Ionic     | In progress | [Repo](https://github.com/contentacms/contenta_ionic) |
 | Angular   | In progress | [Repo](https://github.com/contentacms/contenta_angular)       |
 | Vue.js    | In progress | [Repo](https://github.com/contentacms/contenta_vue_nuxt)       |

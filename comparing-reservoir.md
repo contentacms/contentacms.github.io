@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+# Contenta, Reservoir and the Bigger Drupal Community
+
 Contenta provides you with examples of how to build your decoupled application
 with a Drupal back-end. In fact it provides you with examples end to end, from
 the JSON API server to the React
@@ -20,7 +22,7 @@ We summarize this in the following six stages.
 
 ![The Six Stages of Contenta](/assets/images/six-stages.jpg)
 
-## Contenta and Reservoir, is collaboration possible?
+## Is collaboration possible?
 
 A while after Contenta CMS started, Acquia released Reservoir. In [their blogpost](https://dev.acquia.com/blog/introducing-reservoir-a-distribution-for-decoupling-drupal/19/06/2017/18296)
 they clarified that the project had been in the making for a long time. Longer
