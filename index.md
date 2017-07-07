@@ -51,14 +51,15 @@ Choosing your own front-end technology is one of common reasons to choose a deco
 
 We will implement the [same wireframes](https://www.drupal.org/node/2818741#comment-12122841) as the Out of the Box Initiative, so all the demo applications can be compared. Even though all applications will have the same structure, each one will choose their look and feel. Angular may use [material design](https://material.io/guidelines/material-design/introduction.html), elm may use [bootstrap](http://getbootstrap.com/), etc.
 
-| Front-end | Status      | Link  |
-|:----------|:------------|:------|
-| Elm       | In progress | [Repo](https://github.com/contentacms/contenta_jsonapi__elm)  |
-| React     | In progress | [Repo](https://github.com/contentacms/contenta_react)                       |
-| Ember     | In progress | [Repo](https://github.com/contentacms/contenta_ember)                      |
-| Ionic     | In progress | [Repo](https://github.com/contentacms/contenta_ionic) |
-| Angular   | In progress | [Repo](https://github.com/contentacms/contenta_angular)       |
-| Vue.js    | In progress | [Repo](https://github.com/contentacms/contenta_vue_nuxt)       |
+| Front-end | Status       | Example | Code   |
+|:----------|:-------------|:--------|:-------|
+| Angular   | Running demo | [Website](https://contenta-angular.firebaseapp.com/) | [Repo](https://github.com/contentacms/contenta_angular) |
+| Angular 4 | Planned      | Not yet | Not yet |
+| Elm       | Running demo | [Website](https://contenta-elm.firebaseapp.com/) | [Repo](https://github.com/contentacms/contenta_jsonapi__elm) |
+| Ember     | Need help    | Not yet | [Repo](https://github.com/contentacms/contenta_ember) |
+| Ionic     | Running demo | Not yet | [Repo](https://github.com/contentacms/contenta_ionic) |
+| React     | In progress  | Not yet | [Repo](https://github.com/contentacms/contenta_react) |
+| Vue.js    | In progress  | Not yet | [Repo](https://github.com/contentacms/contenta_vue_nuxt) |
 
 If you want to contribute to any of the demo apps above or add a new one, join [the Slack channel](https://drupal.slack.com/messages/C5A70F7D1) and become part of the project!
 
