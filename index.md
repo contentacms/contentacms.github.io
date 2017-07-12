@@ -54,7 +54,6 @@ We will implement the [same wireframes](https://www.drupal.org/node/2818741#comm
 | Front-end | Status       | Example | Code   |
 |:----------|:-------------|:--------|:-------|
 | Angular   | Running demo | [Website](https://contenta-angular.firebaseapp.com/) | [Repo](https://github.com/contentacms/contenta_angular) |
-| Angular 4 | Planned      | Not yet | Not yet |
 | Elm       | Running demo | [Website](https://contenta-elm.firebaseapp.com/) | [Repo](https://github.com/contentacms/contenta_jsonapi__elm) |
 | Ember     | Need help    | Not yet | [Repo](https://github.com/contentacms/contenta_ember) |
 | Ionic     | Running demo | Not yet | [Repo](https://github.com/contentacms/contenta_ionic) |
