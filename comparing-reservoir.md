@@ -31,14 +31,14 @@ than Contenta.
 > We are sad that Acquia released their own distribution to solve the same problem. But we are happy that the community has started to collaborate towards this goal. Future is still open. We continue believing in the full mission of contenta.
 
 After several meetings between both API-First initiative
-coordinators Wim (Reservoir) and Mateu (Contenta). The Contenta and Reservoir
+coordinators Wim (Reservoir) and Mateu (Contenta), the Contenta and Reservoir
 teams came to an understanding of how the two projects compare. More importantly
 a collaboration model was devised.
 
-Suffice to say that the Contente team would have liked that there wasn't a split
+Suffice to say that the Contenta team would have liked that there wasn't a split
 that had to be merged afterwards. However it is highly important to note that
 while the Reservoir team was working on it they provided many patches and
-helpful discussions to the entire ecosystem (Drupal core, JSON API, Schemata ...). The reservouir team
+helpful discussions to the entire ecosystem (Drupal core, JSON API, Schemata ...). The Reservoir team
 involved in the weekly API-First meetings have been doing things the open source way, thank you!
 
 ## Which one should I use
