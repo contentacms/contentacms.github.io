@@ -3,7 +3,7 @@ layout: default
 ---
 ## [](#mission)Our Mission
 
-Read more about Contenta's mission in [this blog post](medium.com/@mateu.aguilo.bosch/contenta-makes-your-content-happy-6f76bbe0cdae).
+Read more about Contenta's mission in [this blog post](https://medium.com/@mateu.aguilo.bosch/contenta-makes-your-content-happy-6f76bbe0cdae).
 
 ![The mission of Contenta CMS](/assets/images/contenta-mission.png)
 
@@ -59,6 +59,7 @@ We will implement the [same wireframes](https://www.drupal.org/node/2818741#comm
 | Ionic     | Running demo | Not yet | [Repo](https://github.com/contentacms/contenta_ionic) |
 | React     | In progress  | Not yet | [Repo](https://github.com/contentacms/contenta_react) |
 | Vue.js + Nuxt.js | In progress  | [Website](https://contentavuenuxt.now.sh) | [Repo](https://github.com/contentacms/contenta_vue_nuxt) |
+| Chatbot   | Running demo  | [Blog post](https://medium.com/@dawehner/im-hungry-but-i-can-t-decide-a-small-chatbot-based-upon-contenta-cms-9f8c0bb1d48f) | [Repo](https://github.com/contentacms/contenta-bot) |
 
 If you want to contribute to any of the demo apps above or add a new one, join [the Slack channel](https://drupal.slack.com/messages/C5A70F7D1) and become part of the project!
 
