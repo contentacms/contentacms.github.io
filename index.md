@@ -3,7 +3,7 @@ layout: default
 ---
 ## [](#mission)Our Mission
 
-Read more about Contenta's mission in [this blog post](medium.com/@mateu.aguilo.bosch/contenta-makes-your-content-happy-6f76bbe0cdae).
+Read more about Contenta's mission in [this blog post](https://medium.com/@mateu.aguilo.bosch/contenta-makes-your-content-happy-6f76bbe0cdae).
 
 ![The mission of Contenta CMS](/assets/images/contenta-mission.png)
 
