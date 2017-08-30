@@ -3,11 +3,15 @@ layout: default
 ---
 ## [](#mission)Our Mission
 
+Contenta is the community driven API distribution for Drupal 8. 
+
+It provides a standard platform that is API ready along with demo content and example front-end applications. Contenta intends to ease the pain of using, or simply trying, decoupled Drupal.
+
 Read more about Contenta's mission in [this blog post](https://medium.com/@mateu.aguilo.bosch/contenta-makes-your-content-happy-6f76bbe0cdae).
 
 ![The mission of Contenta CMS](/assets/images/contenta-mission.png)
 
-## [](#quick-install)Quick install
+## [](#quick-install)Quick install, for local development only
 <p style="text-align: center;">
   <iframe height="315" src="https://www.youtube.com/embed/MOQ0gd7uEWU" frameborder="0" allowfullscreen="" width="560"></iframe>
 </p>
@@ -21,11 +25,6 @@ chmod a+x contentacms.sh
 ./contentacms.sh
 ```
 
-## [](#goals)Goals
-One of the conclusions of DrupalCon Baltimore was that Drupal 8 has **impressive tools to build a decoupled application**. However, assembling all the tools together and setting them up correctly can be a little bit daunting. On top of that, once you have everything set up you need to figure out the ins and outs of your front-end project.
-
-With this in mind, Contenta CMS is born to _make your content happy_. Contenta CMS is the response of **the community** to build an API-First Drupal distribution. The goals of Contenta are simple: provide a standard platform that is API ready along with demo content and example front-end applications. In summary, Contenta intends to ease the pain of using, or simply trying, decoupled Drupal.
-
 ## [](#installation)Installation
 
 * [Get composer](https://getcomposer.org/)
@@ -34,6 +33,11 @@ With this in mind, Contenta CMS is born to _make your content happy_. Contenta C
 composer create-project contentacms/contenta-jsonapi-project MYPROJECT --stability dev --no-interaction
 ```
 * After that, install Drupal normally.
+
+## [](#goals)Goals
+One of the conclusions of DrupalCon Baltimore was that Drupal 8 has **impressive tools to build a decoupled application**. However, assembling all the tools together and setting them up correctly can be a little bit daunting. On top of that, once you have everything set up you need to figure out the ins and outs of your front-end project.
+
+With this in mind, Contenta CMS is born to _make your content happy_. Contenta CMS is the response of **the community** to build an API-First Drupal distribution. The goals of Contenta are simple: provide a standard platform that is API ready along with demo content and example front-end applications. In summary, Contenta intends to ease the pain of using, or simply trying, decoupled Drupal.
 
 ## [](#bigger-drupal-community)The Bigger Drupal Community
 
