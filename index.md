@@ -9,15 +9,6 @@ It provides a standard platform that is API ready along with demo content and ex
 
 Read more about Contenta's mission in [this blog post](https://medium.com/@mateu.aguilo.bosch/contenta-makes-your-content-happy-6f76bbe0cdae).
 
-## [](#installation)Installation
-
-* [Get composer](https://getcomposer.org/)
-* Create a new project using a command like this. This will pull down the installation profile + core + modules, so maybe get a cup of tea:
-```
-composer create-project contentacms/contenta-jsonapi-project MYPROJECT --stability dev --no-interaction
-```
-* After that, install Drupal normally.
-
 ![The mission of Contenta CMS](/assets/images/contenta-mission.png)
 
 ## [](#quick-install)Quick install, for local development only
@@ -33,6 +24,15 @@ php -r "readfile('https://raw.githubusercontent.com/contentacms/contenta_jsonapi
 chmod a+x contentacms.sh
 ./contentacms.sh
 ```
+
+## [](#installation)Installation
+
+* [Get composer](https://getcomposer.org/)
+* Create a new project using a command like this. This will pull down the installation profile + core + modules, so maybe get a cup of tea:
+```
+composer create-project contentacms/contenta-jsonapi-project MYPROJECT --stability dev --no-interaction
+```
+* After that, install Drupal normally.
 
 ## [](#goals)Goals
 One of the conclusions of DrupalCon Baltimore was that Drupal 8 has **impressive tools to build a decoupled application**. However, assembling all the tools together and setting them up correctly can be a little bit daunting. On top of that, once you have everything set up you need to figure out the ins and outs of your front-end project.
