@@ -63,7 +63,7 @@ We will implement the [same wireframes](https://www.drupal.org/node/2818741#comm
 | React     | In progress  | Not yet | [Repo](https://github.com/contentacms/contenta_react) |
 | Vue.js + Nuxt.js | In progress  | [Website](https://contentavuenuxt.github.io/) | [Repo](https://github.com/contentacms/contenta_vue_nuxt) |
 | Chatbot   | Running demo  | [Blog post](https://medium.com/@dawehner/im-hungry-but-i-can-t-decide-a-small-chatbot-based-upon-contenta-cms-9f8c0bb1d48f) | [Repo](https://github.com/contentacms/contenta-bot) |
-| Gatsbyjs   | In progress | Not yet | [Repo](https://github.com/tarekdj/gatsby-contenta) |
+| Gatsbyjs   | In progress | Not yet | [Repo](https://github.com/contentacms/contenta_gatsby) |
 
 If you want to contribute to any of the demo apps above or add a new one, join [the Slack channel](https://drupal.slack.com/messages/C5A70F7D1) and become part of the project!
 
