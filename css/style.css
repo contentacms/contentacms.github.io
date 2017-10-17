@@ -1,0 +1,120 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+p {
+  line-height: 1.5rem;
+}
+
+dl dt {
+  text-transform: uppercase;
+  margin: 2rem 0 1rem 0;
+}
+
+h5.header, h6.header {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+pre.code {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  line-height: 1;
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 2px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+.icon-block h5 {
+  text-transform: uppercase;
+}
+
+.section {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+.header .indicator {
+   border-bottom: 3px solid #212121;
+   width: 70px;
+   display: block;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+}
+
+.section .hero-icon {
+  padding: 10px;
+}
+
+.section.hero, .section.mission {
+  background: #03a9f4;
+  background: -webkit-linear-gradient(top,#03a9f4,#0288d1);
+  background: -o-linear-gradient(top,#03a9f4,#0288d1);
+  background: -moz-linear-gradient(top,#03a9f4,#0288d1);
+  background: linear-gradient(to bottom, #03a9f4, #0288d1);
+}
+
+.section .hero-icon {
+  padding: 10px;
+}
+
+.section h5.header {
+  text-transform: uppercase;
+}
+
+.section.mission .m3 .material-icons {
+  font-size: 12.5rem;
+}
+
+.section.mission a {
+  color: #212121;
+  text-decoration: underline;
+}
+
+.section.summary .header .indicator {
+  border-color: #03a9f4;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section h6 {
+  text-transform: uppercase;
+  color: #03a9f4;
+  font-weight: bold;
+}
+
+.section.demos img {
+  width: 50%;
+}
+
+.section.demos table {
+  margin-top: -32px;
+}
