@@ -90,7 +90,7 @@ pre.code {
   text-transform: uppercase;
 }
 
-.section.mission .m3 .material-icons, .section.help-share .m3 .material-icons {
+.section.mission .m3 .material-icons, .section.help-share .m3 .material-icons, .section.compare .m3 .material-icons {
   font-size: 12.5rem;
 }
 
