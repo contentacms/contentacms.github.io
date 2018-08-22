@@ -204,7 +204,25 @@ chmod a+x download-contentacms.sh
 ./download-contentacms.sh
               </code></pre>
             </li>
-            <li>After that, copy <code>.env.example</code> into <code>.env</code> and add the database connection details. <strong>NOTE:</strong> it is highly recommended to use <code>.env.local</code> to store your credentials, since that file is ignored by git.</li>
+            <li>
+              After that, create <code>.env</code> and add the database connection details. <strong>NOTE:</strong> it is highly recommended to use <code>.env.local</code> to store your credentials, since that file is ignored by git.
+              <pre class="code"><code>
+# Example .env file.
+SITE_MAIL=admin@localhost
+ACCOUNT_MAIL=admin@localhost
+SITE_NAME='Contenta CMS Demo'
+ACCOUNT_NAME=admin
+MYSQL_DATABASE=contenta
+MYSQL_HOSTNAME=localhost
+MYSQL_PORT=3306
+MYSQL_USER=contenta
+              </code></pre>
+              <pre class="code"><code>
+# Example .env.local file.
+MYSQL_PASSWORD=contenta
+ACCOUNT_PASS=admin
+              </code></pre>
+            </li>
             <li>
               Once you have added your database connection details you can:
               <pre class="code"><code>
