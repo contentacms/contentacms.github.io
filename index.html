@@ -183,9 +183,9 @@
         <div class="col m7 s12 thin">
           <p>The quick installation is intended for local development only. For this to work you will need to have composer installed in your local machine. See get composer for more details. Also, make sure that the sqlite-extension is installed (sudo apt-get install php-sqlite3 in debian/ubuntu).</p>
           <pre class="code"><code>
-php -r "readfile('https://raw.githubusercontent.com/contentacms/contenta_jsonapi/8.x-1.x/installer.sh');" > contentacms.sh
-chmod a+x contentacms.sh
-./contentacms.sh
+php -r "readfile('https://raw.githubusercontent.com/contentacms/contenta_jsonapi/8.x-1.x/installer.sh');" > contentacms-quick-installer.sh
+chmod a+x contentacms-quick-installer.sh
+./contentacms-quick-installer.sh
           </code></pre>
         </div>
       </div>
@@ -199,10 +199,18 @@ chmod a+x contentacms.sh
             <li>
               Create a new project using a command like this. This will pull down the installation profile + core + modules, so maybe get a cup of tea:
               <pre class="code"><code>
-composer create-project contentacms/contenta-jsonapi-project MYPROJECT --stability dev --no-interaction
+php -r "readfile('https://raw.githubusercontent.com/contentacms/contenta_jsonapi/8.x-1.x/download.sh');" > download-contentacms.sh
+chmod a+x download-contentacms.sh
+./download-contentacms.sh
               </code></pre>
             </li>
-            <li>After that, install Drupal normally.</li>
+            <li>After that, copy <code>.env.example</code> into <code>.env</code> and add the database connection details. <strong>NOTE:</strong> it is highly recommended to use <code>.env.local</code> to store your credentials, since that file is ignored by git.</li>
+            <li>
+              Once you have added your database connection details you can:
+              <pre class="code"><code>
+composer run-script install:with-mysql
+              </code></pre>
+            </li>
           </ol>
         </div>
       </div>
