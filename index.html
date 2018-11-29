@@ -229,6 +229,8 @@ ACCOUNT_PASS=admin
               Once you have added your database connection details you can:
               <pre class="code"><code>
 composer run-script install:with-mysql
+chown -R www-data web/sites/default/files
+vendor/drush/drush/drush cache:rebuild
               </code></pre>
             </li>
           </ol>
